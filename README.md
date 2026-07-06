@@ -1,4 +1,4 @@
-##Nuevo repositorio
+# Nuevo repositorio
 
 Bienvenido al nuevo repositorio oficial de Gunmote.
 
@@ -10,7 +10,7 @@ En los próximos meses anunciaré la nueva web oficial del proyecto, que central
 
 ---
 
-Gunmote 1.1.1.0
+## Gunmote 1.1.1.0
 
 La versión 1.1.1.0 representa la actualización final de Gunmote 1 e incorpora las siguientes mejoras:
 
@@ -25,7 +25,7 @@ La versión 1.1.1.0 representa la actualización final de Gunmote 1 e incorpora 
 
 ---
 
-El futuro: Gunmote 2
+## El futuro: Gunmote 2
 
 Mientras esta versión permanecerá disponible como la última edición de Gunmote 1, el desarrollo ya está centrado en Gunmote 2.
 
@@ -36,9 +36,7 @@ A medida que avance el desarrollo se irá publicando más información a través
 Gracias a todos los usuarios que habéis apoyado Gunmote durante todos estos años con vuestras pruebas, sugerencias y reportes de errores. Vuestra colaboración ha sido fundamental para hacer crecer el proyecto.
 
 
-
-
-New Repository
+# New Repository
 
 Welcome to the new official Gunmote repository.
 
@@ -50,7 +48,7 @@ In the coming months, I will announce the new official Gunmote website, which wi
 
 ---
 
-Gunmote 1.1.1.0
+## Gunmote 1.1.1.0
 
 Version 1.1.1.0 is the final update of Gunmote 1 and includes the following improvements:
 
@@ -65,7 +63,7 @@ Version 1.1.1.0 is the final update of Gunmote 1 and includes the following impr
 
 ---
 
-Looking Ahead: Gunmote 2
+## Looking Ahead: Gunmote 2
 
 While this repository will remain available as the home of the final Gunmote 1 release, development is now focused on Gunmote 2.
 
