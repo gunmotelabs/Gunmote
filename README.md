@@ -6,7 +6,7 @@ El repositorio original dejó de estar disponible después de que solicitara su 
 
 Este repositorio alojará la última versión de Gunmote 1, incluyendo las correcciones y mejoras finales de la rama actual.
 
-En los próximos meses anunciaré la nueva web oficial del proyecto, que centralizará las descargas, documentación, recursos adicionales y todas las novedades relacionadas con Gunmote.
+En los próximos meses anunciaré la nueva web oficial del proyecto, que centralizará las descargas, documentación, recursos adicionales y todas las novedades relacionadas con Gunmote y otros proyectos.
 
 ---
 
@@ -33,7 +33,7 @@ La próxima generación del proyecto supondrá una renovación profunda, con una
 
 A medida que avance el desarrollo se irá publicando más información a través de la futura web oficial del proyecto.
 
-Gracias a todos los usuarios que habéis apoyado Gunmote durante todos estos años con vuestras pruebas, sugerencias y reportes de errores. Vuestra colaboración ha sido fundamental para hacer crecer el proyecto.
+Gracias a todos los usuarios que habéis apoyado Gunmote durante todos estos meses con vuestras pruebas, sugerencias y reportes de errores. Vuestra colaboración ha sido fundamental para hacer crecer el proyecto.
 
 
 # New Repository
@@ -44,7 +44,7 @@ The original repository is no longer available because I requested its closure a
 
 This repository will host the final release of Gunmote 1, including the latest fixes and improvements for the current generation of the project.
 
-In the coming months, I will announce the new official Gunmote website, which will become the central place for downloads, documentation, additional resources, and future project updates.
+In the coming months, I will announce the new official Gunmote website, which will become the central place for downloads, documentation, additional resources, and future Gunmote project updates and other projects.
 
 ---
 
@@ -71,4 +71,4 @@ The next generation of Gunmote will feature a completely redesigned user interfa
 
 More information will be shared as development progresses through the upcoming official project website.
 
-Thank you to everyone who has supported Gunmote over the years by testing, reporting bugs, and sharing feedback. Your contributions have been essential to the project's growth.
+Thank you to everyone who has supported Gunmote over the months by testing, reporting bugs, and sharing feedback. Your contributions have been essential to the project's growth.
