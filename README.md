@@ -29,11 +29,13 @@ La versión 1.1.1.0 representa la actualización final de Gunmote 1 e incorpora 
 
 Mientras esta versión permanecerá disponible como la última edición de Gunmote 1, el desarrollo ya está centrado en Gunmote 2.
 
-La próxima generación del proyecto supondrá una renovación profunda, con una interfaz completamente rediseñada, una arquitectura más moderna y nuevas funcionalidades orientadas a ofrecer una experiencia de configuración más sencilla, flexible y potente.
+Gunmote 2 será una build desarrollada completamente desde cero, aprovechando toda la experiencia adquirida durante el desarrollo de Gunmote 1 para diseñar una arquitectura más moderna, mantenible y preparada para futuras ampliaciones.
+
+La nueva generación del proyecto incorporará una interfaz completamente rediseñada, una base de código renovada y nuevas funcionalidades orientadas a ofrecer una experiencia de configuración más sencilla, flexible y potente.
 
 A medida que avance el desarrollo se irá publicando más información a través de la futura web oficial del proyecto.
 
-Gracias a todos los usuarios que habéis apoyado Gunmote durante todos estos meses con vuestras pruebas, sugerencias y reportes de errores. Vuestra colaboración ha sido fundamental para hacer crecer el proyecto.
+Gracias a todos los usuarios que habéis apoyado Gunmote durante todos estos años con vuestras pruebas, sugerencias y reportes de errores. Vuestra colaboración ha sido fundamental para hacer crecer el proyecto.
 
 # Código fuente
 
@@ -75,11 +77,14 @@ Version 1.1.1.0 is the final update of Gunmote 1 and includes the following impr
 
 While this repository will remain available as the home of the final Gunmote 1 release, development is now focused on Gunmote 2.
 
-The next generation of Gunmote will feature a completely redesigned user interface, a modernized architecture, and new functionality aimed at providing a more intuitive, flexible, and powerful user experience.
+Gunmote 2 will be a completely rebuilt application developed from the ground up, taking everything learned from Gunmote 1 to create a more modern, maintainable architecture designed for future expansion.
+
+The next generation of the project will feature a completely redesigned user interface, a renewed codebase, and new functionality aimed at providing a simpler, more flexible, and more powerful user experience.
 
 More information will be shared as development progresses through the upcoming official project website.
 
-Thank you to everyone who has supported Gunmote over the months by testing, reporting bugs, and sharing feedback. Your contributions have been essential to the project's growth.
+Thank you to everyone who has supported Gunmote over the years by testing, reporting bugs, and sharing feedback. Your contributions have been essential to the project's growth.
+
 
 # Source Code
 
