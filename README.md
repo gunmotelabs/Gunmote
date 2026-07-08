@@ -35,6 +35,14 @@ A medida que avance el desarrollo se irá publicando más información a través
 
 Gracias a todos los usuarios que habéis apoyado Gunmote durante todos estos meses con vuestras pruebas, sugerencias y reportes de errores. Vuestra colaboración ha sido fundamental para hacer crecer el proyecto.
 
+# Código fuente
+
+Gunmote es un proyecto distribuido bajo la licencia GNU General Public License (GPL) y, como tal, su código fuente estará disponible en este repositorio.
+
+Lamentablemente, como consecuencia del incidente de seguridad que provocó el cierre del repositorio y de mi cuenta anterior de GitHub, actualmente me encuentro en proceso de recuperar una copia del código fuente. Es posible que la versión recuperada no corresponda exactamente a la versión publicada en este nuevo repositorio, ya que parte del historial de desarrollo se perdió como consecuencia del incidente.
+
+En cuanto disponga de una versión recuperada y verificada, será publicada en este repositorio para cumplir con los términos de la licencia GPL y permitir que la comunidad continúe colaborando con el proyecto.
+
 
 # New Repository
 
@@ -72,3 +80,11 @@ The next generation of Gunmote will feature a completely redesigned user interfa
 More information will be shared as development progresses through the upcoming official project website.
 
 Thank you to everyone who has supported Gunmote over the months by testing, reporting bugs, and sharing feedback. Your contributions have been essential to the project's growth.
+
+# Source Code
+
+Gunmote is released under the GNU General Public License (GPL), and its source code will be made available through this repository.
+
+Unfortunately, due to the security incident that led to the closure of my previous GitHub account and repository, I am currently working on recovering a copy of the source code. The recovered source code may not exactly match the version published in this new repository, as part of the development history was lost as a result of the security incident.
+
+As soon as I have a recovered and verified version, it will be published in this repository in accordance with the GPL license, allowing the community to continue contributing to the project.
