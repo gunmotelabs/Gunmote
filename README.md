@@ -1,5 +1,6 @@
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/a4a4a11d-7abc-4c0a-9e6d-0633e93d5e46" />
 
+![Downloads](https://img.shields.io/github/downloads/gunmotelabs/Gunmote/total?label=downloads)
 
 Gunmote
 ==============
