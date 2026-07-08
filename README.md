@@ -1,3 +1,65 @@
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/a4a4a11d-7abc-4c0a-9e6d-0633e93d5e46" />
+
+
+Gunmote
+==============
+Introducing Gunmote, the evolution of the Touchmote application created by Symphax and improved by Ryochan7, Suegrini, and others, now focused on using up to 4 Wiimotes on your computer as lightguns with precision and many options.
+
+Aim, move, and shoot with your Wiimote at the screen or HD TV.
+
+Gunmote is an evolution of Touchmote, which was based on the WiiTUIO project, which allows Wii controller data to be translated into genuine Windows touch and motion events.
+
+The position where the Wiimote is pointing is calculated using a Wii sensor bar (up or down), two Wii sensor bars (one up and one down), four infrared LEDs in a square arrangement, or four infrared LEDs in a diamond arrangement.
+
+The application is developed mainly in C# .NET 4.8 and some C++.
+
+
+Prerequisites
+==============
+At least:
+
+1x Nintendo Wii Remote<br />
+1x Wireless Wii Sensor Bar<br />
+1x Bluetooth enabled computer with Windows 8/10/11
+
+Bug reports
+==============
+Please use the GitHub Issue tracker to report bugs. Always include the following information:<br />
+1. System configuration, including Bluetooth device vendor and model<br />
+2. Steps to reproduce the error<br />
+3. Expected output<br />
+4. Actual output<br />
+
+How to build
+==============
+*First install:*  
+Microsoft Visual Studio 2019 or higher  
+Install **.NET desktop development** Workload  
+Install **Desktop development with C++** Workload  
+Direct X SDK
+
+1. Install the Touchmote drivers and test certificate by running the installer from this repo<br />
+2. Run Visual Studio "as Administrator". Open the project file Touchmote.sln. <br />
+3. If you want to use the debugger, edit the file called app.manifest and change uiAccess to false. Otherwise the app has to be run under Program Files. This is for the cursor to be able to show on top of the Modern UI.<br />
+4. Go to Build->Configuration manager...<br />
+5. Choose solution platform for either x86 or x64 depending on your system. Close it and Build.<br />
+
+Credits
+==============
+WiimoteLib 1.7:  	http://wiimotelib.codeplex.com/<br />
+WiiTUIO project:	http://code.google.com/p/wiituio/<br />
+TouchInjector:	  http://touchinjector.codeplex.com/<br />
+Scarlet.Crush Xinput wrapper:   http://forums.pcsx2.net/Thread-XInput-Wrapper-for-DS3-and-Play-com-USB-Dual-DS2-Controller<br />
+WiiPair:  				http://www.richlynch.com/code/wiipair<br />
+EcoTUIOdriver:    https://github.com/ecologylab/EcoTUIODriver<br />
+MultiTouchVista:  http://multitouchvista.codeplex.com<br />
+OpenFIRE:  https://github.com/TeamOpenFIRE/OpenFIRE-Firmware<br />
+Symphax: https://github.com/simphax/Touchmote<br />
+Ryochan7: https://github.com/Ryochan7/Touchmote <br />
+Suegrini: https://github.com/Suegrini/Touchmote <br />
+
+
+
 # Nuevo repositorio
 
 Bienvenido al nuevo repositorio oficial de Gunmote.
