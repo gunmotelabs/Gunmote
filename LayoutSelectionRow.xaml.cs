@@ -1,0 +1,101 @@
+﻿// -----------------------------------------------------------------------------
+// Modificaciones Gunmote:
+// Copyright (c) Gustavo A. Lara (PapaGustavoKratos / GustavoALara).
+//
+// Este fichero puede conservar código original de Touchmote bajo licencia GPL.
+// Las modificaciones, ampliaciones y correcciones específicas de Gunmote se
+// atribuyen a Gustavo A. Lara, salvo las notas de colaboración indicadas.
+// -----------------------------------------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+using WiiTUIO.Provider;
+
+namespace WiiTUIO
+{
+    /// <summary>
+    /// Interaction logic for LayoutSelectionRow.xaml
+    /// </summary>
+    public partial class LayoutSelectionRow : UserControl
+    {
+        private string name;
+        private string file;
+        private bool selected = false;
+
+        public Action<string> OnClick; //filename
+
+        private Color borderColor;
+        /// <summary>
+        /// Implementa la lógica específica de Gunmote asociada a LayoutSelectionRow.
+        /// </summary>
+        public LayoutSelectionRow(string name, string file, Color borderColor)
+        {
+            InitializeComponent();
+            this.name = name;
+            this.file = file;
+            this.tbName.Text = name;
+            this.borderColor = borderColor;
+
+            setSelected(false);
+        }
+        /// <summary>
+        /// Devuelve un valor calculado o configurado utilizado por la lógica específica de Gunmote.
+        /// </summary>
+        public string getFilename()
+        {
+            return file;
+        }
+
+        public bool isSelected()
+        {
+            return this.selected;
+        }
+        /// <summary>
+        /// Actualiza un valor interno utilizado por la lógica específica de Gunmote.
+        /// </summary>
+        public void setSelected(bool selected)
+        {
+            this.selected = selected;
+            if(selected)
+            {
+                this.border.Background = new SolidColorBrush(this.borderColor);//Color.FromArgb(0xEE, 0x33, 0x33, 0x33));
+                this.border.BorderBrush = new SolidColorBrush(Color.FromArgb(0xEE, 0x33, 0x33, 0x33));
+            }
+            else
+            {
+                this.border.Background = new SolidColorBrush(Color.FromArgb(0xFF, 0x33, 0x33, 0x33));
+                this.border.BorderBrush = new SolidColorBrush(Color.FromArgb(0xFF, 0x66, 0x66, 0x66));
+            }
+        }
+        /// <summary>
+        /// Implementa la lógica específica de Gunmote asociada a tbName_MouseUp.
+        /// </summary>
+        private void tbName_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            if (OnClick != null)
+            {
+                OnClick(this.file);
+            }
+        }
+        /*
+        /// <summary>
+        /// Implementa la lógica específica de Gunmote asociada a tbName_MouseDown.
+        /// </summary>
+        private void tbName_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            this.setSelected(true);
+        }
+        */
+    }
+}

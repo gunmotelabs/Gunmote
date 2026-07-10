@@ -1,0 +1,63 @@
+﻿<!--
+  Modificaciones Gunmote: Copyright (c) Gustavo A. Lara (PapaGustavoKratos / GustavoALara).
+  Este fichero puede conservar estructura original de Touchmote bajo licencia GPL.
+-->
+<Window x:Class="WiiTUIO.Provider.CalibrationOverlay"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:this="clr-namespace:WiiTUIO.Provider"
+    xmlns:loc="clr-namespace:WiiTUIO"
+    Topmost="True"
+    Top="0"
+    Left="0"
+    AllowsTransparency="True"
+    WindowStyle="None"
+    Background="Transparent"
+    ShowInTaskbar="False"
+    WindowStartupLocation="Manual">
+    <Canvas Name="CalibrationCanvas" Background="#88000000">
+        <Border Name="TextBorder" Background="#00FFFFFF" BorderThickness="0" BorderBrush="Transparent" Margin="0,0,0,10">
+            <TextBlock Name="TextBlock" FontSize="30" FontFamily="Segoe UI Semilight" Foreground="White" Margin="10" TextAlignment="Center">
+                    <Run Name="wiimoteNo" Text="Wiimote" Foreground="Gray"/><Run Name="insText2" Text="{loc:Localization insText2}" Foreground="White"/>
+            </TextBlock>
+        </Border>
+        <Canvas Name="CalibrationPoint" Height="100" Width="100" ClipToBounds="False" Canvas.Top="0" Canvas.Left="0" Panel.ZIndex="999">
+            <Ellipse Name="elipse" Stroke="Black" Fill="White" Height="80" Width="80" Canvas.Top="10" Canvas.Left="10"/>
+            <Line Name="lineX" Stroke="Black" StrokeThickness="5" X1="0" Y1="50" X2="100" Y2="50"/>
+            <Line Name="lineY" Stroke="Black" StrokeThickness="5" X1="50" Y1="0" X2="50" Y2="100"/>
+        </Canvas>
+
+        <!-- Líneas de cuadrícula para los modos "none" o "square" -->
+        <Line Name="GridLineV1" Stroke="LightGreen" StrokeThickness="1" Visibility="Hidden" />
+        <Line Name="GridLineV2" Stroke="LightGreen" StrokeThickness="1" Visibility="Hidden" />
+        <Line Name="GridLineV3" Stroke="LightGreen" StrokeThickness="1" Visibility="Hidden" />
+        <Line Name="GridLineV4" Stroke="LightGreen" StrokeThickness="1" Visibility="Hidden" />
+        <Line Name="GridLineV5" Stroke="LightGreen" StrokeThickness="1" Visibility="Hidden" />
+
+        <Line Name="GridLineH1" Stroke="LightGreen" StrokeThickness="1" Visibility="Hidden" />
+        <Line Name="GridLineH2" Stroke="LightGreen" StrokeThickness="1" Visibility="Hidden" />
+        <Line Name="GridLineH3" Stroke="LightGreen" StrokeThickness="1" Visibility="Hidden" />
+        <Line Name="GridLineH4" Stroke="LightGreen" StrokeThickness="1" Visibility="Hidden" />
+        <Line Name="GridLineH5" Stroke="LightGreen" StrokeThickness="1" Visibility="Hidden" />
+
+        <!-- Líneas verticales para el modo de calibración "none" o "square" -->
+        <Line Name="VerticalLineLeft" Stroke="Green" StrokeThickness="2" Visibility="Hidden" />
+        <Line Name="VerticalLineRight" Stroke="Green" StrokeThickness="2" Visibility="Hidden" />
+
+        <!-- Nuevas líneas para el modo de calibración "diamond" -->
+        <Line Name="HorizontalLineCenter" Stroke="Green" StrokeThickness="2" Visibility="Hidden" />
+        <Line Name="VerticalLineCenter" Stroke="Green" StrokeThickness="2" Visibility="Hidden" />
+
+        <!-- Triángulos equiláteros en los extremos de las líneas verticales (para "none" o "square") -->
+        <Polygon Name="TriangleLeftTop" Fill="Green" Visibility="Hidden" />
+        <Polygon Name="TriangleLeftBottom" Fill="Green" Visibility="Hidden" />
+        <Polygon Name="TriangleRightTop" Fill="Green" Visibility="Hidden" />
+        <Polygon Name="TriangleRightBottom" Fill="Green" Visibility="Hidden" />
+
+        <!-- Triángulos equiláteros en los extremos de las líneas centrales (para "diamond") -->
+        <Polygon Name="TriangleCenterTop" Fill="Green" Visibility="Hidden" />
+        <Polygon Name="TriangleCenterBottom" Fill="Green" Visibility="Hidden" />
+        <Polygon Name="TriangleCenterLeft" Fill="Green" Visibility="Hidden" />
+        <Polygon Name="TriangleCenterRight" Fill="Green" Visibility="Hidden" />
+    </Canvas>
+</Window>
