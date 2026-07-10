@@ -65,7 +65,11 @@ Suegrini: https://github.com/Suegrini/Touchmote <br />
 
 Bienvenido al nuevo repositorio oficial de Gunmote.
 
-El repositorio original dejó de estar disponible después de que solicitara su cierre como medida preventiva tras detectarse un compromiso de seguridad en mi cuenta de GitHub. Aunque el código del proyecto nunca se vio comprometido, preferí comenzar desde una cuenta completamente nueva para garantizar un entorno de desarrollo seguro y de confianza.
+El repositorio original dejó de estar disponible después de que mi cuenta de GitHub fuera comprometida. Como consecuencia del incidente, perdí completamente el acceso a la cuenta tras el cambio no autorizado de las credenciales y de todos los métodos de autenticación y recuperación, lo que hizo imposible recuperar el control del repositorio.
+
+Una vez confirmado que no era posible recuperar la cuenta, solicité a GitHub el bloqueo y la posterior eliminación tanto de la cuenta comprometida como del repositorio asociado, con el fin de evitar un posible uso malicioso de los mismos.
+
+Afortunadamente, conservaba una copia compilada de la última versión estable de Gunmote 1 anterior al incidente. Por respeto y compromiso con la comunidad que ha apoyado este proyecto durante todos estos años, he decidido publicarla en este nuevo repositorio para que siga estando disponible mientras continúa el desarrollo de la siguiente generación del proyecto.
 
 Este repositorio alojará la última versión de Gunmote 1, incluyendo las correcciones y mejoras finales de la rama actual.
 
@@ -113,7 +117,11 @@ En cuanto disponga de una versión recuperada y verificada, será publicada en e
 
 Welcome to the new official Gunmote repository.
 
-The original repository is no longer available because I requested its closure as a precautionary measure after my GitHub account was compromised. Although the project itself was never affected, I decided to start from a completely new account to ensure a clean and trustworthy development environment.
+The original repository became unavailable after my GitHub account was compromised. As a result of the incident, I completely lost access to the account after the credentials and all authentication and account recovery methods were changed without authorization, making it impossible to regain control of the repository.
+
+Once it became clear that the account could not be recovered, I requested that GitHub disable and permanently remove both the compromised account and its repository to prevent any potential misuse.
+
+Fortunately, I still had a compiled copy of the latest stable Gunmote 1 release created before the incident. Out of respect for, and commitment to, the community that has supported this project over the years, I have decided to publish that final build in this new repository so it remains available while development continues on the next generation of Gunmote.
 
 This repository will host the final release of Gunmote 1, including the latest fixes and improvements for the current generation of the project.
 
