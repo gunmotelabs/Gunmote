@@ -1,0 +1,1302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdvConfigTitle" xml:space="preserve">
+    <value>Konfigurazio aurreratua (Arduraz tratatu)</value>
+  </data>
+  <data name="Battery" xml:space="preserve">
+    <value>Bateria:</value>
+  </data>
+  <data name="Connected" xml:space="preserve">
+    <value>Konektatuta</value>
+  </data>
+  <data name="ConnectOnStart" xml:space="preserve">
+    <value>Konektatu abiaraztean</value>
+  </data>
+  <data name="DisconnectWiimotesOnDolphin" xml:space="preserve">
+    <value>Deskonektatu Wiimotes On Dolphin</value>
+  </data>
+  <data name="DolphinPath" xml:space="preserve">
+    <value>Izurdeen bidea:</value>
+  </data>
+  <data name="GlobalConf" xml:space="preserve">
+    <value>Konfigurazio globala</value>
+  </data>
+  <data name="Configuración de Keymaps:" xml:space="preserve">
+    <value>Teklatuen konfigurazioa:</value>
+  </data>
+  <data name="KeymapsPath" xml:space="preserve">
+    <value>Teklatu-mapen bidea:</value>
+  </data>
+  <data name="menuExit" xml:space="preserve">
+    <value>Irten</value>
+  </data>
+  <data name="NotificationsEnabled" xml:space="preserve">
+    <value>Jakinarazpenak gaituta</value>
+  </data>
+  <data name="NoTopmost" xml:space="preserve">
+    <value>Ez eduki leihoa beti gainean</value>
+  </data>
+  <data name="PrimaryMonitor" xml:space="preserve">
+    <value>Lehen mailako monitorea:</value>
+  </data>
+  <data name="SaveAndReboot" xml:space="preserve">
+    <value>Gorde eta berrabiarazi GunMote</value>
+  </data>
+  <data name="TouchmoteAbout1" xml:space="preserve">
+    <value>GunMote-k Wiimote bakar edo anitz gisa jarduteko modu bat eskaintzen du, pistola arin-gailu eta gamepad gisa.</value>
+  </data>
+  <data name="TouchmoteAbout2" xml:space="preserve">
+    <value>Eskerrik asko Symphaxi gure Wiimotei bigarren bizitza bat eman dion aplikazio zoragarri hau sortzeagatik, Ryochani bere hobekuntzagatik eta Suegriniri 4 IR LED erabiltzeko gaitasuna gehitzeagatik zehaztasun handiagoa lortzeko. Bertsio honek lan horrekin jarraitzen du eta hobekuntza berri asko gehitzen ditu.</value>
+  </data>
+  <data name="TrayBalloonTip" xml:space="preserve">
+    <value>Sakatu GunMote parametroak editatzeko</value>
+  </data>
+  <data name="AutoDisconnectTimeout" xml:space="preserve">
+    <value>Deskonexio automatikoko denbora-muga (ms):</value>
+  </data>
+  <data name="DefaultContinousScale" xml:space="preserve">
+    <value>Eskala etengabe lehenetsia:</value>
+  </data>
+  <data name="DefaultContinousPressThreshold" xml:space="preserve">
+    <value>Prentsa etengabeko atalase lehenetsia:</value>
+  </data>
+  <data name="DefaultContinousDeadzone" xml:space="preserve">
+    <value>Deadzone etengabeko lehenetsia:</value>
+  </data>
+  <data name="PointerConfigHeaderText" xml:space="preserve">
+    <value>Erakuslearen konfigurazioa</value>
+  </data>
+  <data name="PointerSensorBarPosCompensation" xml:space="preserve">
+    <value>Erakuslea SensorBar posizioaren konpentsazioa:</value>
+  </data>
+  <data name="PointerCursorSize" xml:space="preserve">
+    <value>Erakuslearen kurtsorearen tamaina:</value>
+  </data>
+  <data name="PointerMarginsTopBottom" xml:space="preserve">
+    <value>Erakusleen marjinak Goian/Behean:</value>
+  </data>
+  <data name="PointerMarginsLeftRight" xml:space="preserve">
+    <value>Erakuslearen marjinak ezkerreko/eskuineko:</value>
+  </data>
+  <data name="PointerFPS" xml:space="preserve">
+    <value>Erakusleen fotograma segundoko (FPS)</value>
+  </data>
+  <data name="PointerPositionSmoothing" xml:space="preserve">
+    <value>Erakuslearen posizioa leuntzea:</value>
+  </data>
+  <data name="PointerPositionRadius" xml:space="preserve">
+    <value>Erakuslearen posizioaren erradioa:</value>
+  </data>
+  <data name="TestConfigHeader" xml:space="preserve">
+    <value>FPS saguaren konfigurazioa</value>
+  </data>
+  <data name="TestDeltaAccel" xml:space="preserve">
+    <value>Test Delta Azelerazioa gaitzen du:</value>
+  </data>
+  <data name="TestDeltaAccelMulti" xml:space="preserve">
+    <value>Proba Delta azelerazio biderkatzailea:</value>
+  </data>
+  <data name="TestDeltaAccelMinTravel" xml:space="preserve">
+    <value>Proba Delta Azelerazioa Gutxieneko Bidaia:</value>
+  </data>
+  <data name="TestDeltaAccelEasingDuration" xml:space="preserve">
+    <value>Proba delta azelerazioa leuntzeko iraupena:</value>
+  </data>
+  <data name="TestRegionEasingXDuration" xml:space="preserve">
+    <value>X proba-eskualdearen iraupena arintzea:</value>
+  </data>
+  <data name="TestDeltaAccelMaxTravel" xml:space="preserve">
+    <value>Proba Delta Azelerazioa Gehienezko Bidaia:</value>
+  </data>
+  <data name="TestRegionEasingXOffset" xml:space="preserve">
+    <value>Proba X eskualdea desplazamendua arinduz:</value>
+  </data>
+  <data name="TestSmoothingWeight" xml:space="preserve">
+    <value>Proba leuntzeko pisua:</value>
+  </data>
+  <data name="TestFpsmouseOffset" xml:space="preserve">
+    <value>Proba Fps saguaren desplazamendua:</value>
+  </data>
+  <data name="CalibrationMarginX" xml:space="preserve">
+    <value>X kalibratzeko marjina:</value>
+  </data>
+  <data name="CalibrationMarginY" xml:space="preserve">
+    <value>Y kalibratzeko marjina:</value>
+  </data>
+  <data name="TestLightgunOneeuroMincutoff" xml:space="preserve">
+    <value>Leuntzeko iragazkia Min Cut Off</value>
+  </data>
+  <data name="TestLightgunOneeuroBeta" xml:space="preserve">
+    <value>Leuntzeko iragazkia mugimendu azkarretan</value>
+  </data>
+  <data name="FpsmouseDeadzone" xml:space="preserve">
+    <value>FPS Mouse Deadzone:</value>
+  </data>
+  <data name="FpsmouseSpeed" xml:space="preserve">
+    <value>FPS saguaren abiadura:</value>
+  </data>
+  <data name="ShakeTitle" xml:space="preserve">
+    <value>Astindu konfigurazioa</value>
+  </data>
+  <data name="ShakeThreshold" xml:space="preserve">
+    <value>Astindu Atalasea:</value>
+  </data>
+  <data name="ShakeCount" xml:space="preserve">
+    <value>Astindu kopurua:</value>
+  </data>
+  <data name="ShakeMaxTimeInBetween" xml:space="preserve">
+    <value>Astindu gehienezko denbora tartean (ms):</value>
+  </data>
+  <data name="ShakePressedTime" xml:space="preserve">
+    <value>Sakatutako denbora astindu (ms):</value>
+  </data>
+  <data name="RumbleXinputTitle" xml:space="preserve">
+    <value>XInput Rumble konfigurazioa</value>
+  </data>
+  <data name="XinputRumbleThresholdBig" xml:space="preserve">
+    <value>Xinput Rumble Threshold Handia:</value>
+  </data>
+  <data name="XinputRumbleThresholdSmall" xml:space="preserve">
+    <value>Xinput Rumble Atalasea Txikia:</value>
+  </data>
+  <data name="SoundAndRumbleTitle" xml:space="preserve">
+    <value>Wiimote soinua eta Rumble konfigurazioa</value>
+  </data>
+  <data name="WiimoteRumbleTimeShort" xml:space="preserve">
+    <value>Rumble Denbora laburra (ms):</value>
+  </data>
+  <data name="WiimoteRumbleTimeLong" xml:space="preserve">
+    <value>Rumble Denbora luzea (ms):</value>
+  </data>
+  <data name="WiimodeRumbleTimeAlternatingOn" xml:space="preserve">
+    <value>Rumble denbora txandakatuz aktibatuta (ms):</value>
+  </data>
+  <data name="WiimodeRumbleTimeAlternatingOff" xml:space="preserve">
+    <value>Wiimode Rumble Denbora desaktibatuta txandakatuz (ms):</value>
+  </data>
+  <data name="WiimodeLoopSoundTime" xml:space="preserve">
+    <value>Loop soinu-denbora (ms):</value>
+  </data>
+  <data name="IDTitle" xml:space="preserve">
+    <value>Wiimote IDen koloreen konfigurazioa</value>
+  </data>
+  <data name="ColorID1" xml:space="preserve">
+    <value>Kolore ID 1 (R, G, B):</value>
+  </data>
+  <data name="ColorID2" xml:space="preserve">
+    <value>Kolore ID 2 (R, G, B):</value>
+  </data>
+  <data name="ColorID3" xml:space="preserve">
+    <value>Kolore ID 3 (R, G, B):</value>
+  </data>
+  <data name="ColorID4" xml:space="preserve">
+    <value>Kolore ID 4 (R, G, B):</value>
+  </data>
+  <data name="KeymapsConfig" xml:space="preserve">
+    <value>Teklatuen konfigurazio fitxategia:</value>
+  </data>
+  <data name="AppSettings" xml:space="preserve">
+    <value>GunMote ezarpenak</value>
+  </data>
+  <data name="WindowsStart" xml:space="preserve">
+    <value>Hasi GunMote Windows-ekin</value>
+  </data>
+  <data name="pairOnStart" xml:space="preserve">
+    <value>Parekatu Hasieran</value>
+  </data>
+  <data name="DisconnectOnExit" xml:space="preserve">
+    <value>Irteeran deskonektatu wiimote guztiak</value>
+  </data>
+  <data name="MinimizeToTray" xml:space="preserve">
+    <value>Minimizatu erretilura</value>
+  </data>
+  <data name="MinimizeOnStart" xml:space="preserve">
+    <value>Minimizatu abiaraztean</value>
+  </data>
+  <data name="EditKeymaps" xml:space="preserve">
+    <value>Wiimote konfigurazioa</value>
+  </data>
+  <data name="connectedCount" xml:space="preserve">
+    <value>0 Konektatutako Wiimote</value>
+  </data>
+  <data name="pairWiimote" xml:space="preserve">
+    <value>Parekatzea...</value>
+  </data>
+  <data name="PressSyncPart1" xml:space="preserve">
+    <value>Sakatu SYNC</value>
+  </data>
+  <data name="PressSyncPart2" xml:space="preserve">
+    <value>betiko konexiorako edo 1+2 behin-behineko konexiorako.</value>
+  </data>
+  <data name="TryAgain" xml:space="preserve">
+    <value>Saiatu berriro lagun</value>
+  </data>
+  <data name="WiimoteComp" xml:space="preserve">
+    <value>Zure Wiimoteetako bat gutxienez ez da Microsoft Bluetooth pilarekin bateragarria, erabili 2011ko azaroa baino lehen fabrikatutako Wiimoteak soilik edo jarraitu argibideei hemen.</value>
+  </data>
+  <data name="ThisPage" xml:space="preserve">
+    <value>orrialde hau</value>
+  </data>
+  <data name="PairWiimotes" xml:space="preserve">
+    <value>Parekatu Wiimotes</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Eginda</value>
+  </data>
+  <data name="OneWiimoteConnected" xml:space="preserve">
+    <value>Wiimote bat konektatuta</value>
+  </data>
+  <data name="WiimotesConnected" xml:space="preserve">
+    <value>Wiimotes konektatuta</value>
+  </data>
+  <data name="Scanning" xml:space="preserve">
+    <value>Eskaneatzen...</value>
+  </data>
+  <data name="TClosing" xml:space="preserve">
+    <value>Itxiera...</value>
+  </data>
+  <data name="Layout" xml:space="preserve">
+    <value>Diseinua hona aldatu da</value>
+  </data>
+  <data name="ChooseLayout" xml:space="preserve">
+    <value>Aukeratu Diseinua</value>
+  </data>
+  <data name="ChooseWiimoteLayout" xml:space="preserve">
+    <value>Aukeratu Wiimote Diseinua</value>
+  </data>
+  <data name="RestartError" xml:space="preserve">
+    <value>Errore bat gertatu da aplikazioa berrabiarazten: {0}</value>
+  </data>
+  <data name="DolphinFolder" xml:space="preserve">
+    <value>Hautatu Dolphin Folder</value>
+  </data>
+  <data name="KeymapsFolder" xml:space="preserve">
+    <value>Hautatu Teklatuen karpeta</value>
+  </data>
+  <data name="KeymapsConfigSelect" xml:space="preserve">
+    <value>Hautatu Teklatuen konfigurazio fitxategia</value>
+  </data>
+  <data name="insText2" xml:space="preserve">
+    <value>helburuetara zuzendu eta sakatu A edo B kalibratzeko.</value>
+  </data>
+  <data name="AimBottomRight" xml:space="preserve">
+    <value>Helburua BEHEKO ESKUINEKO izkinara eta sakatu A edo B kalibratzeko.</value>
+  </data>
+  <data name="AimCenter" xml:space="preserve">
+    <value>Helburua ZENTROA helburura eta sakatu A edo B kalibratzeko.</value>
+  </data>
+  <data name="AimTargets" xml:space="preserve">
+    <value>Helburuetara jo eta sakatu A edo B kalibratzeko.
+Sakatu A edo B kalibrazioa hasteko.
+Helburu bakoitzari hainbat aldiz tiro egin beharko duzu.</value>
+  </data>
+  <data name="AimTopCenter" xml:space="preserve">
+    <value>Helburua GOI erdiko xedera eta sakatu A edo B kalibratzeko.</value>
+  </data>
+  <data name="AimTopLeft" xml:space="preserve">
+    <value>Helburua GOIKO EZKARRERA izkinara eta sakatu A edo B kalibratzeko.</value>
+  </data>
+  <data name="AimBottomCenter" xml:space="preserve">
+    <value>Helburua BEHEKO zentroko xedera eta sakatu A edo B kalibratzeko.</value>
+  </data>
+  <data name="AimConfirm" xml:space="preserve">
+    <value>Sakatu A kalibrazioa berresteko, sakatu - kalibrazioa berrezartzeko</value>
+  </data>
+  <data name="AimLeftCenter" xml:space="preserve">
+    <value>Helburua EZKARRERA erdiko xedera eta sakatu A edo B kalibratzeko.</value>
+  </data>
+  <data name="AimRightCenter" xml:space="preserve">
+    <value>Helburua ESKUINEKO erdiko xedera eta sakatu A edo B kalibratzeko.</value>
+  </data>
+  <data name="HoldDown" xml:space="preserve">
+    <value>Eutsi Sakatuta</value>
+  </data>
+  <data name="NoSensors" xml:space="preserve">
+    <value>Ez da sentsorerik aurkitu. Ziurtatu distantzia egokian zaudela eta pantailara seinalatuz.</value>
+  </data>
+  <data name="ReleaseText" xml:space="preserve">
+    <value>Askatu</value>
+  </data>
+  <data name="AimConfig" xml:space="preserve">
+    <value>Helburuaren konfigurazioa</value>
+  </data>
+  <data name="SensorMode" xml:space="preserve">
+    <value>Sentsore modua</value>
+  </data>
+  <data name="2IRTop" xml:space="preserve">
+    <value>2IR: Goiena</value>
+  </data>
+  <data name="2IRBottom" xml:space="preserve">
+    <value>2IR: Behean</value>
+  </data>
+  <data name="4IRSquare" xml:space="preserve">
+    <value>4IR: Karratua</value>
+  </data>
+  <data name="4IRDiamond" xml:space="preserve">
+    <value>4IR: Diamante</value>
+  </data>
+  <data name="tbName" xml:space="preserve">
+    <value>Lehenetsia</value>
+  </data>
+  <data name="tbDefault" xml:space="preserve">
+    <value>Lehenetsia</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Guri buruz</value>
+  </data>
+  <data name="SettingsBut" xml:space="preserve">
+    <value>Ezarpenak</value>
+  </data>
+  <data name="KeymapConfigTitle" xml:space="preserve">
+    <value>Teklatuaren konfigurazioa</value>
+  </data>
+  <data name="KeyMapLayout" xml:space="preserve">
+    <value>Diseinua</value>
+  </data>
+  <data name="EditLayout" xml:space="preserve">
+    <value>Editatu diseinua</value>
+  </data>
+  <data name="KeyMapDel" xml:space="preserve">
+    <value>Ezabatu</value>
+  </data>
+  <data name="cbLayoutChooser" xml:space="preserve">
+    <value>Diseinu-hautatzailean erabilgarri (utzi hasiera 3 segundo)</value>
+  </data>
+  <data name="AppLink" xml:space="preserve">
+    <value>Aplikaziorako esteka</value>
+  </data>
+  <data name="GamepadsLabel" xml:space="preserve">
+    <value>Gamepadak</value>
+  </data>
+  <data name="btnAll" xml:space="preserve">
+    <value>Denak</value>
+  </data>
+  <data name="rbOnscreen" xml:space="preserve">
+    <value>Pantailan</value>
+  </data>
+  <data name="rbOffscreen" xml:space="preserve">
+    <value>Pantaila kanpoan</value>
+  </data>
+  <data name="ClassicGamepad" xml:space="preserve">
+    <value>Gamepad klasikoa</value>
+  </data>
+  <data name="OutputsLabel" xml:space="preserve">
+    <value>Irteerak</value>
+  </data>
+  <data name="cbiAll" xml:space="preserve">
+    <value>Denak</value>
+  </data>
+  <data name="cbiKeyboard" xml:space="preserve">
+    <value>Teklatua</value>
+  </data>
+  <data name="cbiMouse" xml:space="preserve">
+    <value>Sagua</value>
+  </data>
+  <data name="cbi360" xml:space="preserve">
+    <value>Xbox 360 Gamepad</value>
+  </data>
+  <data name="cbiWiimote" xml:space="preserve">
+    <value>Wiimotea</value>
+  </data>
+  <data name="cbiCursor" xml:space="preserve">
+    <value>Kurtsorea</value>
+  </data>
+  <data name="cbiOther" xml:space="preserve">
+    <value>Bestela</value>
+  </data>
+  <data name="tbOutputFilter" xml:space="preserve">
+    <value>Irteerako iragazkia</value>
+  </data>
+  <data name="tbKeymapTitle" xml:space="preserve">
+    <value>Izenburua</value>
+  </data>
+  <data name="tDisableKey" xml:space="preserve">
+    <value>Ezindua</value>
+  </data>
+  <data name="tPointer" xml:space="preserve">
+    <value>Erakuslea</value>
+  </data>
+  <data name="tPointerXminus" xml:space="preserve">
+    <value>Ezkerreko erakuslea</value>
+  </data>
+  <data name="tPointerXplus" xml:space="preserve">
+    <value>Eskuineko erakuslea</value>
+  </data>
+  <data name="tPointerYminus" xml:space="preserve">
+    <value>Gora erakuslea</value>
+  </data>
+  <data name="tPointerYplus" xml:space="preserve">
+    <value>Behera erakuslea</value>
+  </data>
+  <data name="tLeft" xml:space="preserve">
+    <value>Ezkerra</value>
+  </data>
+  <data name="tRight" xml:space="preserve">
+    <value>Eskuin</value>
+  </data>
+  <data name="tUp" xml:space="preserve">
+    <value>Gora</value>
+  </data>
+  <data name="tDown" xml:space="preserve">
+    <value>Behera</value>
+  </data>
+  <data name="tPlus" xml:space="preserve">
+    <value>Gehiago (+)</value>
+  </data>
+  <data name="tMinus" xml:space="preserve">
+    <value>Minus (-)</value>
+  </data>
+  <data name="tOne" xml:space="preserve">
+    <value>Bat (1)</value>
+  </data>
+  <data name="tTwo" xml:space="preserve">
+    <value>Bi (1)</value>
+  </data>
+  <data name="tTiltXMinus" xml:space="preserve">
+    <value>Okertu X -</value>
+  </data>
+  <data name="tTiltXPlus" xml:space="preserve">
+    <value>Okertu X +</value>
+  </data>
+  <data name="tTiltYMinus" xml:space="preserve">
+    <value>Okertu Y -</value>
+  </data>
+  <data name="tTiltYPlus" xml:space="preserve">
+    <value>Okertu Y +</value>
+  </data>
+  <data name="tTiltZMinus" xml:space="preserve">
+    <value>Okertu Z -</value>
+  </data>
+  <data name="tTiltZPlus" xml:space="preserve">
+    <value>Okertu Z +</value>
+  </data>
+  <data name="tShake" xml:space="preserve">
+    <value>Astindu</value>
+  </data>
+  <data name="tExtension" xml:space="preserve">
+    <value>Luzapena</value>
+  </data>
+  <data name="tStickLeft" xml:space="preserve">
+    <value>Ezkerreko Makila</value>
+  </data>
+  <data name="tStickRight" xml:space="preserve">
+    <value>Eskuineko makila</value>
+  </data>
+  <data name="tStickUp" xml:space="preserve">
+    <value>Stick Up</value>
+  </data>
+  <data name="tStickDown" xml:space="preserve">
+    <value>Makila Behera</value>
+  </data>
+  <data name="tStickRotationPlus" xml:space="preserve">
+    <value>Makilaren biraketa (+)</value>
+  </data>
+  <data name="tStickRotationMinus" xml:space="preserve">
+    <value>Makilaren biraketa(-)</value>
+  </data>
+  <data name="tStickLLeft" xml:space="preserve">
+    <value>Ezkerreko Makila Ezkerra</value>
+  </data>
+  <data name="tStickLRight" xml:space="preserve">
+    <value>Ezkerreko Makila Eskuinekoa</value>
+  </data>
+  <data name="tStickLUp" xml:space="preserve">
+    <value>Ezkerreko Makila Gora</value>
+  </data>
+  <data name="tStickLDown" xml:space="preserve">
+    <value>Ezkerreko Makila Behera</value>
+  </data>
+  <data name="tStickRLeft" xml:space="preserve">
+    <value>Eskuineko Makila Ezkerra</value>
+  </data>
+  <data name="tStickRRight" xml:space="preserve">
+    <value>Eskuineko makila Eskuinekoa</value>
+  </data>
+  <data name="tStickRUp" xml:space="preserve">
+    <value>Eskuineko Makila Gora</value>
+  </data>
+  <data name="tStickRDown" xml:space="preserve">
+    <value>Eskuineko makila Behera</value>
+  </data>
+  <data name="tTriggerL" xml:space="preserve">
+    <value>Ezkerreko Trigger</value>
+  </data>
+  <data name="tTriggerR" xml:space="preserve">
+    <value>Eskuineko Trigger</value>
+  </data>
+  <data name="tL" xml:space="preserve">
+    <value>Ezkerreko Trigger Push</value>
+  </data>
+  <data name="tR" xml:space="preserve">
+    <value>Eskuineko Trigger Push</value>
+  </data>
+  <data name="tMouse" xml:space="preserve">
+    <value>Sagua</value>
+  </data>
+  <data name="tFPSMouse" xml:space="preserve">
+    <value>FPS sagua</value>
+  </data>
+  <data name="tLightgunMouse" xml:space="preserve">
+    <value>Sagua</value>
+  </data>
+  <data name="tMouseLeftB" xml:space="preserve">
+    <value>Saguaren ezkerreko botoia</value>
+  </data>
+  <data name="tMouseMiddleB" xml:space="preserve">
+    <value>Saguaren erdiko botoia</value>
+  </data>
+  <data name="tMouseRightB" xml:space="preserve">
+    <value>Saguaren eskuineko botoia</value>
+  </data>
+  <data name="tMouseWheelUp" xml:space="preserve">
+    <value>Saguaren gurpila gora</value>
+  </data>
+  <data name="tMouseWheelDown" xml:space="preserve">
+    <value>Saguaren gurpila behera</value>
+  </data>
+  <data name="tMouseRight" xml:space="preserve">
+    <value>Mugitu sagua eskuinera</value>
+  </data>
+  <data name="tMouseUp" xml:space="preserve">
+    <value>Sagua Mugitu Gora</value>
+  </data>
+  <data name="tMouseLeft" xml:space="preserve">
+    <value>Mugitu sagua ezkerrera</value>
+  </data>
+  <data name="tMouseDown" xml:space="preserve">
+    <value>Sagua Mugitu Behera</value>
+  </data>
+  <data name="tMouseExtra1" xml:space="preserve">
+    <value>Saguaren botoia gehigarria 1</value>
+  </data>
+  <data name="tMouseExtra2" xml:space="preserve">
+    <value>Saguaren botoia gehigarria 2</value>
+  </data>
+  <data name="tBack" xml:space="preserve">
+    <value>Itzuli</value>
+  </data>
+  <data name="tReturn" xml:space="preserve">
+    <value>Itzuli</value>
+  </data>
+  <data name="tShift" xml:space="preserve">
+    <value>Txanda</value>
+  </data>
+  <data name="tPause" xml:space="preserve">
+    <value>Pausa</value>
+  </data>
+  <data name="tCapsLock" xml:space="preserve">
+    <value>Maiuskulak blokeatzea</value>
+  </data>
+  <data name="tSpace" xml:space="preserve">
+    <value>Espazioa</value>
+  </data>
+  <data name="tPagUp" xml:space="preserve">
+    <value>Orria gora</value>
+  </data>
+  <data name="tPagDown" xml:space="preserve">
+    <value>Orria behera</value>
+  </data>
+  <data name="tEnd" xml:space="preserve">
+    <value>Amaiera</value>
+  </data>
+  <data name="tHome" xml:space="preserve">
+    <value>Hasiera</value>
+  </data>
+  <data name="tNumLeft" xml:space="preserve">
+    <value>Ezkerreko zenbaki-teklatua</value>
+  </data>
+  <data name="tNumUp" xml:space="preserve">
+    <value>Teklatua gora</value>
+  </data>
+  <data name="tNumRight" xml:space="preserve">
+    <value>Eskuineko teklatua</value>
+  </data>
+  <data name="tNumDown" xml:space="preserve">
+    <value>Numpad behera</value>
+  </data>
+  <data name="tPrintScreen" xml:space="preserve">
+    <value>Inprimatu pantaila</value>
+  </data>
+  <data name="tInsert" xml:space="preserve">
+    <value>Txertatu</value>
+  </data>
+  <data name="tDel" xml:space="preserve">
+    <value>Ezabatu</value>
+  </data>
+  <data name="tPeriod" xml:space="preserve">
+    <value>Aldia (.)</value>
+  </data>
+  <data name="tComma" xml:space="preserve">
+    <value>Koma (,)</value>
+  </data>
+  <data name="tLWin" xml:space="preserve">
+    <value>Ezkerreko Irabazi</value>
+  </data>
+  <data name="tRWin" xml:space="preserve">
+    <value>Eskuin irabazi</value>
+  </data>
+  <data name="tMultiply" xml:space="preserve">
+    <value>Biderkatu (*)</value>
+  </data>
+  <data name="tAdd" xml:space="preserve">
+    <value>Gehitu (+)</value>
+  </data>
+  <data name="tSubtract" xml:space="preserve">
+    <value>Kenketa (-)</value>
+  </data>
+  <data name="tDecimal" xml:space="preserve">
+    <value>Hamartarra (.)</value>
+  </data>
+  <data name="tDivide" xml:space="preserve">
+    <value>Zatitu (/)</value>
+  </data>
+  <data name="tNumlock" xml:space="preserve">
+    <value>Numlock</value>
+  </data>
+  <data name="tLShift" xml:space="preserve">
+    <value>Ezkerreko Shift</value>
+  </data>
+  <data name="tRShift" xml:space="preserve">
+    <value>Eskuineko Shift</value>
+  </data>
+  <data name="tLControl" xml:space="preserve">
+    <value>Ezkerreko Kontrola</value>
+  </data>
+  <data name="tRControl" xml:space="preserve">
+    <value>Eskuineko Kontrola</value>
+  </data>
+  <data name="tLAlt" xml:space="preserve">
+    <value>Ezkerreko Alt</value>
+  </data>
+  <data name="tRAlt" xml:space="preserve">
+    <value>Eskuineko Alt</value>
+  </data>
+  <data name="tBrowserBack" xml:space="preserve">
+    <value>Arakatzailea Atzera</value>
+  </data>
+  <data name="tBrowserForward" xml:space="preserve">
+    <value>Arakatzailea Aurrera</value>
+  </data>
+  <data name="tBrowserRefresh" xml:space="preserve">
+    <value>Arakatzailea freskatu</value>
+  </data>
+  <data name="tBrowserStop" xml:space="preserve">
+    <value>Arakatzailea Gelditu</value>
+  </data>
+  <data name="tBrowserSearch" xml:space="preserve">
+    <value>Arakatzailearen bilaketa</value>
+  </data>
+  <data name="tBrowserFavorites" xml:space="preserve">
+    <value>Arakatzailearen gogokoak</value>
+  </data>
+  <data name="tBrowserHome" xml:space="preserve">
+    <value>Arakatzailearen hasiera</value>
+  </data>
+  <data name="tVolumeMute" xml:space="preserve">
+    <value>Bolumena mutu</value>
+  </data>
+  <data name="tVolumeUp" xml:space="preserve">
+    <value>Bolumena igo</value>
+  </data>
+  <data name="tVolumeDown" xml:space="preserve">
+    <value>Bolumena jaitsi</value>
+  </data>
+  <data name="tNextTrack" xml:space="preserve">
+    <value>Hurrengo Pista</value>
+  </data>
+  <data name="tPrevTrack" xml:space="preserve">
+    <value>Aurreko Pista</value>
+  </data>
+  <data name="tStop" xml:space="preserve">
+    <value>Gelditu</value>
+  </data>
+  <data name="tPlayPause" xml:space="preserve">
+    <value>Erreproduzitu/Pausatu</value>
+  </data>
+  <data name="tStart" xml:space="preserve">
+    <value>Hasi</value>
+  </data>
+  <data name="tGuide" xml:space="preserve">
+    <value>Gida</value>
+  </data>
+  <data name="tStickLPress" xml:space="preserve">
+    <value>Ezkerreko makila sakatu</value>
+  </data>
+  <data name="tStickRPress" xml:space="preserve">
+    <value>Eskuineko makila sakatu</value>
+  </data>
+  <data name="tStickLLight" xml:space="preserve">
+    <value>Ezkerreko Makila Pistola</value>
+  </data>
+  <data name="tStickLLight43" xml:space="preserve">
+    <value>Left Stick Lightgun 4:3</value>
+  </data>
+  <data name="tStickLCenter" xml:space="preserve">
+    <value>Ezkerreko makilaren erdigunea</value>
+  </data>
+  <data name="tStickRLight" xml:space="preserve">
+    <value>Eskuineko Stick Pistola</value>
+  </data>
+  <data name="tStickRLight43" xml:space="preserve">
+    <value>Eskuineko Stick Lightgun 4:3</value>
+  </data>
+  <data name="tStickRCenter" xml:space="preserve">
+    <value>Eskuineko makilaren erdigunea</value>
+  </data>
+  <data name="tBumperL" xml:space="preserve">
+    <value>Ezkerreko Bumper</value>
+  </data>
+  <data name="tBumperR" xml:space="preserve">
+    <value>Eskuineko Bumper</value>
+  </data>
+  <data name="tPressCursor" xml:space="preserve">
+    <value>Kurtsorea sakatu</value>
+  </data>
+  <data name="tShortRumble" xml:space="preserve">
+    <value>Burrunba Laburra</value>
+  </data>
+  <data name="tLongRumble" xml:space="preserve">
+    <value>Rumble Luzea</value>
+  </data>
+  <data name="tRumbleHold" xml:space="preserve">
+    <value>Rumble Hold</value>
+  </data>
+  <data name="tRumbleAlt" xml:space="preserve">
+    <value>Rumble alternantzia</value>
+  </data>
+  <data name="tSound1" xml:space="preserve">
+    <value>Soinua 1</value>
+  </data>
+  <data name="tSound2" xml:space="preserve">
+    <value>Soinua 2</value>
+  </data>
+  <data name="tSoundLoop" xml:space="preserve">
+    <value>Soinu Loop</value>
+  </data>
+  <data name="UpdateCheck_LatestVersion" xml:space="preserve">
+    <value>Eskuragarri dagoen azken bertsioa erabiltzen ari zara.</value>
+  </data>
+  <data name="UpdateCheck_ApiError" xml:space="preserve">
+    <value>GitHub APIaren errorea ({0}): {1}</value>
+  </data>
+  <data name="UpdateCheck_ConnectionError" xml:space="preserve">
+    <value>Konexio-errorea eguneratzeak egiaztatzean: {0}</value>
+  </data>
+  <data name="UpdateCheck_JsonError" xml:space="preserve">
+    <value>Errore bat gertatu da GitHub-eko JSON erantzuna irakurtzean: {0}</value>
+  </data>
+  <data name="UpdateCheck_UnexpectedError" xml:space="preserve">
+    <value>Ustekabeko errorea eguneratzeak egiaztatzean: {0}</value>
+  </data>
+  <data name="UpdateCheck_NewVersionAvailable_Message" xml:space="preserve">
+    <value>Bertsio berri bat ({0}) eskuragarri dago, deskargatu eta instalatu nahi duzu?</value>
+  </data>
+  <data name="UpdateCheck_NewVersionAvailable_Title" xml:space="preserve">
+    <value>Eguneratzea eskuragarri</value>
+  </data>
+  <data name="UpdateCheck_InitialCheckError" xml:space="preserve">
+    <value>Errore bat eguneratze-egiaztapena hastean: {0}</value>
+  </data>
+  <data name="SaveError_Message" xml:space="preserve">
+    <value>Ezin izan dira kalibrazio-ezarpenak gorde. Mesedez, egiaztatu fitxategien baimenak edo berrabiarazi aplikazioa.</value>
+  </data>
+  <data name="SaveError_Title" xml:space="preserve">
+    <value>Gorde errorea</value>
+  </data>
+  <data name="Profile_NameEmpty" xml:space="preserve">
+    <value>Profilaren izena ezin da hutsik egon.</value>
+  </data>
+  <data name="Profile_Exists" xml:space="preserve">
+    <value>"{0}" profila badago jada.</value>
+  </data>
+  <data name="Profile_CannotDeleteDefault" xml:space="preserve">
+    <value>Ezin da "Profil lehenetsia" profila ezabatu.</value>
+  </data>
+  <data name="Profile_DoesNotExist" xml:space="preserve">
+    <value>"{0}" profila ez dago.</value>
+  </data>
+  <data name="Error_Title_Generic" xml:space="preserve">
+    <value>Errorea</value>
+  </data>
+  <data name="Profile_EnterName" xml:space="preserve">
+    <value>Mesedez, sartu izen bat profil berrirako.</value>
+  </data>
+  <data name="Profile_CreatedAndActivated" xml:space="preserve">
+    <value>"{0}" profila sortu eta aktibatu da.</value>
+  </data>
+  <data name="Success_Title" xml:space="preserve">
+    <value>Arrakasta</value>
+  </data>
+  <data name="Profile_CreateError_Title" xml:space="preserve">
+    <value>Errorea profila sortzean</value>
+  </data>
+  <data name="Profile_CreateError_Message" xml:space="preserve">
+    <value>Errore bat gertatu da profila sortzean: {0}</value>
+  </data>
+  <data name="Profile_SelectToDelete" xml:space="preserve">
+    <value>Mesedez, hautatu ezabatzeko profil bat.</value>
+  </data>
+  <data name="Profile_ConfirmDeletion_Message" xml:space="preserve">
+    <value>Ziur '{0}' profila ezabatu nahi duzula? Ekintza hau atzeraezina da.</value>
+  </data>
+  <data name="Profile_ConfirmDeletion_Title" xml:space="preserve">
+    <value>Berretsi ezabatzea</value>
+  </data>
+  <data name="Profile_Deleted" xml:space="preserve">
+    <value>"{0}" profila ezabatu da.</value>
+  </data>
+  <data name="Profile_DeleteError_Title" xml:space="preserve">
+    <value>Errore bat gertatu da profila ezabatzean</value>
+  </data>
+  <data name="Profile_DeleteError_Message" xml:space="preserve">
+    <value>Errore bat gertatu da profila ezabatzean: {0}</value>
+  </data>
+  <data name="Profile_CalibrationProfiles" xml:space="preserve">
+    <value>Kalibrazio-profilak</value>
+  </data>
+  <data name="Profile_ActiveProfile" xml:space="preserve">
+    <value>Profil aktiboa:</value>
+  </data>
+  <data name="Profile_NewProfile" xml:space="preserve">
+    <value>Profil berria:</value>
+  </data>
+  <data name="Profile_CreateButton" xml:space="preserve">
+    <value>Sortu profila</value>
+  </data>
+  <data name="Profile_DeleteButton" xml:space="preserve">
+    <value>Ezabatu profila</value>
+  </data>
+  <data name="Arrangement_RestartConfirmation_Message" xml:space="preserve">
+    <value>IR antolaketa aldatu duzu, beharrezkoa da GunMote berrabiarazi. Orain berrabiarazi nahi duzu?</value>
+  </data>
+  <data name="Arrangement_RestartConfirmation_Title" xml:space="preserve">
+    <value>Berrabiarazi aplikazioa</value>
+  </data>
+  <data name="dScale" xml:space="preserve">
+    <value>Eskala</value>
+  </data>
+  <data name="dThreshold" xml:space="preserve">
+    <value>Atalasea</value>
+  </data>
+  <data name="UpdateCheck_DownloadingUpdate" xml:space="preserve">
+    <value>Eguneratzailea deskargatzen: {0}</value>
+  </data>
+  <data name="UpdateCheck_NoInstallerFound" xml:space="preserve">
+    <value>Ez da instalatzailerik aurkitu GitHub-en azken bertsioan.</value>
+  </data>
+  <data name="UpdateCheck_DownloadComplete" xml:space="preserve">
+    <value>Deskarga amaituta hemen: {0}</value>
+  </data>
+  <data name="UpdateCheck_DownloadError" xml:space="preserve">
+    <value>Errore bat gertatu da eguneratzailea deskargatzean: {0}</value>
+  </data>
+  <data name="UpdateCheck_InstallationError" xml:space="preserve">
+    <value>Errore bat gertatu da instalatzailea abiarazteko: {0}</value>
+  </data>
+  <data name="UpdateCheck_DownloadCancelled" xml:space="preserve">
+    <value>Eguneratzaileen deskarga bertan behera utzi da.</value>
+  </data>
+  <data name="UpdateCheck_ConfirmInstallationMessage" xml:space="preserve">
+    <value>Eguneraketa deskargatu da. Sakatu 'Bai' GunMote ixteko eta instalazioarekin jarraitzeko, edo 'Utzi' eguneratu nahi ez baduzu.</value>
+  </data>
+  <data name="UpdateCheck_ConfirmInstallationTitle" xml:space="preserve">
+    <value>Berretsi instalazioa</value>
+  </data>
+  <data name="UpdateCheck_InstallationCancelled" xml:space="preserve">
+    <value>Erabiltzaileak bertan behera utzi du eguneratzearen instalazioa.</value>
+  </data>
+  <data name="ChangeLang" xml:space="preserve">
+    <value>Hizkuntza</value>
+  </data>
+  <data name="ChangeLanguage_Title" xml:space="preserve">
+    <value>Hizkuntza aldatu</value>
+  </data>
+  <data name="ChangeLanguage_Accept" xml:space="preserve">
+    <value>Onartu</value>
+  </data>
+  <data name="ChangeLanguage_Cancel" xml:space="preserve">
+    <value>Utzi</value>
+  </data>
+  <data name="ChangeLanguage_Message" xml:space="preserve">
+    <value>Aukeratu hizkuntza berria</value>
+  </data>
+  <data name="Restart_Title" xml:space="preserve">
+    <value>Berrabiarazi Beharrezkoa</value>
+  </data>
+  <data name="Restart_Message" xml:space="preserve">
+    <value>Hizkuntza aldatu egin da. Aplikazioa berrabiaraziko da aldaketak aplikatzeko.</value>
+  </data>
+  <data name="AimTopRight" xml:space="preserve">
+    <value>Helburua GOIKO ESKUINEKO ertzean eta sakatu A edo B kalibratzeko.</value>
+  </data>
+  <data name="AimBottomLeft" xml:space="preserve">
+    <value>Helburua BEHEKO EZKARRERA izkinara eta sakatu A edo B kalibratzeko.</value>
+  </data>
+  <data name="shoot" xml:space="preserve">
+    <value>Tiroa</value>
+  </data>
+  <data name="of" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="ShootsPerTarget" xml:space="preserve">
+    <value>Helburu bakoitzeko jaurtiketak</value>
+  </data>
+  <data name="tLightgunMouse43" xml:space="preserve">
+    <value>Sagua 4:3 pantailaz kanpo</value>
+  </data>
+  <data name="tbRememberMsg" xml:space="preserve">
+    <value>Gunmote lehen aldiz exekutatzen baduzu, gogoratu gutxienez ezarpenetara joatea, LEDen kokapena hautatzea eta Wiimote kontrolagailuak kalibratzea.</value>
+  </data>
+  <data name="firstSteps" xml:space="preserve">
+    <value>Lehen Urratsak</value>
+  </data>
+  <data name="cbShowHelp" xml:space="preserve">
+    <value>Erakutsi lehen urratsetako laguntza-bideoa</value>
+  </data>
+  <data name="cbWiimoterotation" xml:space="preserve">
+    <value>Wiimote Errotazioa</value>
+  </data>
+  <data name="KeyMapClone" xml:space="preserve">
+    <value>Klonatu</value>
+  </data>
+  <data name="Tip_pairOnStart" xml:space="preserve">
+    <value>Wiimote-ak automatikoki parekatu Gunmote abiatzean</value>
+  </data>
+  <data name="Tip_connectOnStart" xml:space="preserve">
+    <value>Parekatutako Wiimote-ak automatikoki konektatu</value>
+  </data>
+  <data name="Tip_minimizeOnStart" xml:space="preserve">
+    <value>Gunmote minimizatuta hasi</value>
+  </data>
+  <data name="Tip_minimizeToTray" xml:space="preserve">
+    <value>Gunmote sistemaren erretilura minimizatu</value>
+  </data>
+  <data name="Tip_notifications_enabled" xml:space="preserve">
+    <value>Sistemako jakinarazpenak gaitu</value>
+  </data>
+  <data name="Tip_pointer_sensorBarPos" xml:space="preserve">
+    <value>Sentsore-barra posizioa ("goian" edo "behean")</value>
+  </data>
+  <data name="Tip_pointer_sensorBarPosCompensation" xml:space="preserve">
+    <value>Sentsore-barraren posizioaren araberako offset bertikala</value>
+  </data>
+  <data name="Tip_pointer_cursorSize" xml:space="preserve">
+    <value>Lightgun kurtsorearen tamaina</value>
+  </data>
+  <data name="Tip_pointer_marginsTopBottom" xml:space="preserve">
+    <value>Punterraren mapaketarako goi/behe marjinak</value>
+  </data>
+  <data name="Tip_pointer_marginsLeftRight" xml:space="preserve">
+    <value>Punterraren mapaketarako ezker/eskuin marjinak</value>
+  </data>
+  <data name="Tip_pointer_4IRMode" xml:space="preserve">
+    <value>4 IR LEDen interpretazioa (diamond/square/none)</value>
+  </data>
+  <data name="Tip_fpsmouse_deadzone" xml:space="preserve">
+    <value>FPS moduko erdiguneko deadzone-a</value>
+  </data>
+  <data name="Tip_fpsmouse_speed" xml:space="preserve">
+    <value>FPS kameraren oinarrizko biraketa-abiadura</value>
+  </data>
+  <data name="Tip_test_fpsmouseOffset" xml:space="preserve">
+    <value>Micro-dardara murrizteko gutxieneko offseta</value>
+  </data>
+  <data name="Tip_test_deltaAccel" xml:space="preserve">
+    <value>FPS saguaren azelerazio dinamikoa gaitu</value>
+  </data>
+  <data name="Tip_test_deltaAccelMulti" xml:space="preserve">
+    <value>Gehienezko azelerazio biderkatzailea</value>
+  </data>
+  <data name="Tip_test_deltaAccelMinTravel" xml:space="preserve">
+    <value>Azelerazioa aktibatzeko gutxieneko mugimendua</value>
+  </data>
+  <data name="Tip_test_deltaAccelMaxTravel" xml:space="preserve">
+    <value>“Azelerazio osoa” izateko distantzia</value>
+  </data>
+  <data name="Tip_test_deltaAccelEasingDuration" xml:space="preserve">
+    <value>Azelerazio aldaketak leuntzeko denbora (segundoak)</value>
+  </data>
+  <data name="Tip_wiimoteRotation" xml:space="preserve">
+    <value>Wiimotearen biraketa fisikoa konpentsatu (0/90/-90/180)</value>
+  </data>
+  <data name="Tip_shake_threshold" xml:space="preserve">
+    <value>Astinaldia detektatzeko atalasea</value>
+  </data>
+  <data name="Tip_ShootsPerTarget" xml:space="preserve">
+    <value>Kalibratzeko behar diren tiro kopurua</value>
+  </data>
+  <data name="Tip_pairedOnce" xml:space="preserve">
+    <value>Barneko marka: Wiimote-ak behin gutxienez parekatu dira</value>
+  </data>
+  <data name="Tip_isHelpPanelOpen" xml:space="preserve">
+    <value>Gogoratu laguntza-panela irekita dagoen</value>
+  </data>
+  <data name="Tip_primaryMonitor" xml:space="preserve">
+    <value>Kurtsorea/lightgunerako monitore nagusia</value>
+  </data>
+  <data name="Tip_completelyDisconnect" xml:space="preserve">
+    <value>Wiimote-ak erabat deskonektatu (garbiketa zorrotzagoa)</value>
+  </data>
+  <data name="Tip_autoDisconnectTimeout" xml:space="preserve">
+    <value>Inaktibitatean automatikoki deskonektatzeko denbora (ms)</value>
+  </data>
+  <data name="Tip_defaultContinousScale" xml:space="preserve">
+    <value>Sarrera jarraitu/analogoen eskala lehenetsia</value>
+  </data>
+  <data name="Tip_defaultContinousPressThreshold" xml:space="preserve">
+    <value>Balio analogikoa "sakatu" gisa hartzeko atalase lehenetsia</value>
+  </data>
+  <data name="Tip_defaultContinousDeadzone" xml:space="preserve">
+    <value>Deriba saihesteko deadzone lehenetsia</value>
+  </data>
+  <data name="Tip_disconnectWiimotesOnDolphin" xml:space="preserve">
+    <value>Dolphin abiatzean Wiimote-ak deskonektatu</value>
+  </data>
+  <data name="Tip_dolphin_path" xml:space="preserve">
+    <value>Dolphin exekutagarrirako bidea (auto-detekzioa)</value>
+  </data>
+  <data name="Tip_keymaps_path" xml:space="preserve">
+    <value>Keymap profilak gordetzen diren karpeta</value>
+  </data>
+  <data name="Tip_noTopmost" xml:space="preserve">
+    <value>Leihoa beti gainean ez mantendu</value>
+  </data>
+  <data name="Tip_keymaps_config" xml:space="preserve">
+    <value>Keymap konfigurazio-fitxategiaren izena</value>
+  </data>
+  <data name="Tip_pointer_FPS" xml:space="preserve">
+    <value>Punterraren prozesatze-berritze tasa (FPS)</value>
+  </data>
+  <data name="Tip_test_regionEasingXDuration" xml:space="preserve">
+    <value>X ardatzean maximoaren inguruko easing denbora</value>
+  </data>
+  <data name="Tip_test_regionEasingXOffset" xml:space="preserve">
+    <value>Ertzaren inguruko easing eskala kontrolatzen du (X)</value>
+  </data>
+  <data name="Tip_test_smoothingWeight" xml:space="preserve">
+    <value>Leuntze-pisua (handiago = leunago baina latentzia gehiago)</value>
+  </data>
+  <data name="Tip_CalibrationMarginX" xml:space="preserve">
+    <value>Kalibrazio marjina horizontala (offset zuzenketa)</value>
+  </data>
+  <data name="Tip_CalibrationMarginY" xml:space="preserve">
+    <value>Kalibrazio marjina bertikala (offset zuzenketa)</value>
+  </data>
+  <data name="Tip_test_lightgun_oneeuro_mincutoff" xml:space="preserve">
+    <value>Gutxieneko mozketa-maiztasuna (handiagoa = leuntze gutxiago sentikorrago, baxuagoa = leuntze gehiago baina atzerapen handiagoa)</value>
+  </data>
+  <data name="Tip_test_lightgun_oneeuro_beta" xml:space="preserve">
+    <value>Abiadura koefizientea (handiagoa = mugimendu azkarrak hobeto jarraitzen ditu, baxuagoa = konstanteagoa, atzerapen potentzial handiagoa)</value>
+  </data>
+  <data name="Tip_pointer_positionSmoothing" xml:space="preserve">
+    <value>Punterraren leuntze modua/mailua</value>
+  </data>
+  <data name="Tip_pointer_positionRadius" xml:space="preserve">
+    <value>Leuntze/zehaztasun logikak erabiltzen duen erradioa</value>
+  </data>
+  <data name="Tip_shake_count" xml:space="preserve">
+    <value>Ekintza aktibatzeko behar diren astinaldi kopurua</value>
+  </data>
+  <data name="Tip_shake_maxTimeInBetween" xml:space="preserve">
+    <value>Astinaldien arteko gehienezko denbora (ms)</value>
+  </data>
+  <data name="Tip_shake_pressedTime" xml:space="preserve">
+    <value>Ekintza "sakatu" gisa kontuan hartzen den denbora (ms)</value>
+  </data>
+  <data name="Tip_xinput_rumbleThreshold_big" xml:space="preserve">
+    <value>Motor handiaren bibrazio-atalasea (XInput)</value>
+  </data>
+  <data name="Tip_xinput_rumbleThreshold_small" xml:space="preserve">
+    <value>Motor txikiaren bibrazio-atalasea (XInput)</value>
+  </data>
+  <data name="Tip_wiimode_rumbleTime_short" xml:space="preserve">
+    <value>Bibrazio laburraren iraupena (ms)</value>
+  </data>
+  <data name="Tip_wiimode_rumbleTime_long" xml:space="preserve">
+    <value>Bibrazio luzearen iraupena (ms)</value>
+  </data>
+  <data name="Tip_wiimode_rumbleTime_alternatingOn" xml:space="preserve">
+    <value>Bibrazio alternoko ON denbora (ms)</value>
+  </data>
+  <data name="Tip_wiimode_rumbleTime_alternatingOff" xml:space="preserve">
+    <value>Bibrazio alternoko OFF denbora (ms)</value>
+  </data>
+  <data name="Tip_wiimode_loopSoundTime" xml:space="preserve">
+    <value>Loop soinuaren tartea (ms)</value>
+  </data>
+  <data name="Tip_Color_ID1" xml:space="preserve">
+    <value>1. jokalaria identifikatzeko RGB kolorea</value>
+  </data>
+  <data name="Tip_Color_ID2" xml:space="preserve">
+    <value>2. jokalaria identifikatzeko RGB kolorea</value>
+  </data>
+  <data name="Tip_Color_ID3" xml:space="preserve">
+    <value>3. jokalaria identifikatzeko RGB kolorea</value>
+  </data>
+  <data name="Tip_Color_ID4" xml:space="preserve">
+    <value>4. jokalaria identifikatzeko RGB kolorea</value>
+  </data>
+  <data name="Tip_DefaultLanguage" xml:space="preserve">
+    <value>UI hizkuntza lehenetsia (hutsik = auto)</value>
+  </data>
+  <data name="Tip_Debug" xml:space="preserve">
+    <value>Debug log-ak gaitu</value>
+  </data>
+  <data name="cbDebug" xml:space="preserve">
+    <value>LEDen arazketa-leihoa erakusten du</value>
+  </data>
+  <data name="Tip_WindowsStart" xml:space="preserve">
+    <value>Gehitu Gunmote Task Scheduler-era erabiltzailearen saioarekin abiarazteko</value>
+  </data>
+  <data name="TestLightgunOneeurodcutoff" xml:space="preserve">
+    <value>Leuntzeko Iragazkia Deribatua Moztu</value>
+  </data>
+  <data name="tLightgunMouse169AR" xml:space="preserve">
+    <value>Sagua 16:9</value>
+  </data>
+  <data name="tLightgunMouse169" xml:space="preserve">
+    <value>Sagua 16:9 pantailaz kanpo</value>
+  </data>
+  <data name="tLightgunMouse43AR" xml:space="preserve">
+    <value>Sagua 4:3</value>
+  </data>
+  <data name="KeymapConfig_SearchStringHelpText" xml:space="preserve">
+    <value>Bilatu katea (leihoaren izena edo izenburua ematen du, adibidez, adibidea.exe)</value>
+  </data>
+  <data name="KeymapConfig_CopySuffix" xml:space="preserve">
+    <value>kopiatu</value>
+  </data>
+  <data name="KeymapConfig_DeleteConfirmTitle" xml:space="preserve">
+    <value>Teklatu-mapa ezabatzearen berrespena</value>
+  </data>
+  <data name="KeymapConfig_DeleteConfirmMessage" xml:space="preserve">
+    <value>Ziur fitxategia betiko ezabatuko duzula?</value>
+  </data>
+  <data name="KeymapConfig_ExecutableFilter" xml:space="preserve">
+    <value>Aplikazio exekutagarriak (*.exe)|*.exe|Fitxategi guztiak (*.*)|*.*</value>
+  </data>
+  <data name="KeymapConfig_SelectExecutableTitle" xml:space="preserve">
+    <value>Hautatu exekutagarria</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="MayflashDolphinBarNoWiimotesInfo" xml:space="preserve">
+    <value>Mayflash DolphinBar bat detektatu da eta oraindik ez dago Wiimote konektatuta. Mayflash erabiltzen duzunean, ezarri barra 4. moduan eta parekatu zure Wiimoteak harekin. Gunmote-k automatikoki detektatuko ditu prest daudenean.</value>
+  </data>
+</root>
